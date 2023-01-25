@@ -1,0 +1,153 @@
+/*
+  Color Variables
+  ---------------
+*/
+/*
+  Font Variables
+  --------------
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400&family=Oswald:wght@500;600;700&display=swap");
+/*
+  Main
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+
+a:link,
+a:visited a:focus {
+  text-decoration: none;
+  outline: none; }
+
+input:link,
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+  background-color: transparent; }
+
+input::-webkit-input-placeholder {
+  font-family: "Lato", sans-serif; }
+
+input::-moz-placeholder {
+  font-family: "Lato", sans-serif; }
+
+input:-ms-input-placeholder {
+  font-family: "Lato", sans-serif; }
+
+input::-ms-input-placeholder {
+  font-family: "Lato", sans-serif; }
+
+input::placeholder {
+  font-family: "Lato", sans-serif; }
+
+textarea::-webkit-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem; }
+
+textarea::-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem; }
+
+textarea:-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem; }
+
+textarea::-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem; }
+
+textarea::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem; }
+
+button:link,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+  background-color: transparent; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media (min-width: 320px) and (max-width: 576px) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: "Lato", sans-serif;
+  font: weight;
+  line-height: 1.6; }
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .container {
+    padding: 0 3.2rem; } }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 2.4rem; } }
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+  .container {
+    padding: 0 7.2rem; } }
+
+@media all and (min-width: 1440px) and (max-width: 1920px) {
+  .container {
+    margin: 0 auto;
+    max-width: 144rem; } }
+
+@media all and (min-width: 1920px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 60%; } }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0 0.8rem 1.6rem; }
+  .nav ul {
+    list-style: none; }
+  .nav__logo {
+    display: flex;
+    align-items: center; }
+    .nav__logo > *:not(:last-child) {
+      margin-right: 0.8rem; }
+    .nav__logo ul {
+      display: none; }
+      .nav__logo ul li {
+        font-family: "Bebas Neue", cursive;
+        letter-spacing: 10%;
+        line-height: 2.2rem; }
+        .nav__logo ul li:first-child {
+          color: #4d4d4d;
+          font-size: 2rem; }
+        .nav__logo ul li:last-child {
+          color: #404f6c;
+          font-size: 2.2rem; }
+  .nav__list {
+    display: flex; }
+    .nav__list > *:not(:last-child) {
+      margin-right: 4.8rem; }
+    .nav__list li {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: bold;
+      text-transform: capitalize; }
+      .nav__list li a {
+        padding-right: 1.6rem; }
